@@ -19,6 +19,7 @@ N_FOLLOWERS = SEED_COUNT * 4
 N_PUBLIC_SUBS = SEED_COUNT * 4
 
 os.makedirs('/data', exist_ok=True)
+os.chmod('data', 0o755)
 
 # Users
 users = []
